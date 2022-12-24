@@ -1,0 +1,49 @@
+/* =========================nav-logo==================== */
+.nav-logo img {
+    width: 60px;
+    height: 60px;
+    margin-right: 5px;
+    fill: rgb(4, 162, 4);
+}
+
+.nav-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-logo h1 {
+    color: greenyellow;
+}
+
+/* -==================nav-container===================== */
+.nav-container {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('../../assets/images/banner.jpg');
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding: 0 40px;
+}
+
+/*================================== button================ */
+button {
+    background-color: #5b6abe;
+
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+    box-shadow: 3px 3px 6px 4px #a7e6aa inset;
+}
+.Button {
+    margin-left: 0;
+    margin-top: 20px;
+}
