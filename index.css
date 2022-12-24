@@ -1,4 +1,8 @@
+*{
+    @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Raleway:wght@400;500;700&display=swap');
+}
 /* =========================nav-logo==================== */
+
 .nav-logo img {
     width: 60px;
     height: 60px;
@@ -46,4 +50,142 @@ button {
 .Button {
     margin-left: 0;
     margin-top: 20px;
+}
+/* =============banner============== */
+/* =============body content========================= */
+.body-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+    height: 500px;
+    margin: 0 20px;
+
+}
+
+.body-container h1 {
+    color: rgb(17, 247, 17);
+    font-weight: 600;
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+.body-container p {
+
+    line-height: 1.5;
+    font-family: sans-serif;
+}
+
+/* ================banner img============================== */
+.left-content img {
+    width: 600px;
+    height: 400px;
+}
+
+.right-content {
+    padding: 40px;
+}
+
+/* =================page 2=================== */
+/* ============content===================== */
+.content {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.content h1 {
+    color: rgb(17, 247, 17);
+    padding-bottom: 40px;
+}
+
+.content p {
+    font-family: sans-serif;
+    line-height: 1.5;
+}
+
+/* =====================img section========================== */
+.img-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.img-content img {
+    width: 500px;
+    height: 400px;
+    margin-bottom: 40px;
+}
+
+/* ======================page-3=========================== */
+/* ===============content============================ */
+.page3-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+
+}
+
+/* ===============img-content======================== */
+.left-img-content img {
+    height: 300px;
+    width: 400px;
+    margin-bottom: 10px;
+
+}
+
+.left-img-content {
+    display: inline;
+    margin-bottom: 30px;
+    padding: 30px;
+}
+
+.right-content-page3 {
+    padding: 40px;
+}
+
+.right-content-page3 h1 {
+    padding-bottom: 20px;
+    color: rgb(17, 247, 17);
+}
+
+.right-content-page3 p {
+    font-family: sans-serif;
+    line-height: 1.5;
+}
+
+small {
+    border-bottom: 2px solid rgb(17, 247, 17);
+    font-weight: 600;
+}
+/* ======================footer================= */
+.footer-container {
+    background-image: linear-gradient(to top left, rgb(67, 108, 7), rgb(126, 175, 51));
+    margin-top: 20px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.footer-container p {
+    margin-right: 10px;
+
+}
+
+.social-logo {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.social-logo:hover {
+    fill: #fff;
+}
+
+.social-content {
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
