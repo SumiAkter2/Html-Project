@@ -20,7 +20,7 @@
 .nav-container {
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url('../../assets/images/banner.jpg');
+    background-image: url('./images/banner.jpg');
     display: flex;
     justify-content: space-between;
     align-items: center;
